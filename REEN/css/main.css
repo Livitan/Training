@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 
@@ -240,3 +240,26 @@ h4 {
 .little_photo_img:not(:last-child) {
 	margin-right: 30px;
 }
+
+.owl-pagination {
+	margin-top: 45px;
+}
+
+.owl-page {
+	display: inline-block;
+}
+
+.owl-page span {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #506a85;
+	margin: 5px 5px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.owl-page span:hover {
+	background: #00bc9c;
+}
+
