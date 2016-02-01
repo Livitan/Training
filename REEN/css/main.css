@@ -299,3 +299,83 @@ footer .foo_column {
 footer .foo_column:not(:first-child) {
 	margin-left: 30px;
 }
+
+footer .foo-brand {
+	font-size: 4.2em;
+	font-weight: 700;
+	position: relative;
+	top: -20px;
+	left: -5px;
+
+}
+
+.image img{
+	margin-bottom: 5px;
+	margin-right: 2px;
+}
+
+.foo_title {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+footer p,
+footer a {
+	color: #a3b1bf;
+	font-family: SourceSansPro;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+.more {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+input[type=email] {
+	background: #4e5c6c;
+	border: none;	
+	color: #828e99;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	width: 100%;
+	padding: 1em;
+	outline: none;
+	position: relative;
+	border-radius: 5px;
+}
+
+.f {
+	position: relative;
+
+	
+
+}
+
+input[type="submit"] {
+	position: absolute;
+	border: none;
+	right: 0.75em;
+	top: 0.5em;
+	bottom: 0.5em;
+	z-index: 1;
+	width: 6em;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #00bc9c;
+	color: white;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+	 background: #17a78b;
+}
