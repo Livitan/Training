@@ -27,7 +27,7 @@ body {
 	line-height: 2.429;
 }
 
-li:last-child {
+.top li:last-child {
 	float: right;
 }
 
@@ -377,5 +377,54 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	 background: #17a78b;
+	background: #17a78b;
+}
+
+.foo_bot{
+	background: #283645;
+	padding: 20px 20px 20px 0;
+	color: #707e8c;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.foo_nav {
+	float: right;
+}
+
+.foo_nav ul {
+	float: left;
+}
+
+.foo_menu li {
+	display: inline;
+	position: relative;
+}
+
+.foo_menu li a {
+	padding: 6px 10px 6px 10px;
+	color: #707e8c;
+}
+.foo_menu li:not(:last-child)::after {
+	content: "";
+	height: 3px;
+	width: 3px;
+	background: #707e8c;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 40%;
+}
+.fa-envelope-o {
+  margin-right: 8px;
+}
+
+.fa-mobile {
+  margin-right: 10px;
+}
+
+.top .navbar-left {
+color: #506a85;
+font-size: 12px;
+font-weight: 400;
 }
