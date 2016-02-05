@@ -416,15 +416,51 @@ input[type="submit"]:hover {
 	bottom: 40%;
 }
 .fa-envelope-o {
-  margin-right: 8px;
+	margin-right: 8px;
 }
 
 .fa-mobile {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 
 .top .navbar-left {
-color: #506a85;
-font-size: 12px;
-font-weight: 400;
+	color: #506a85;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+
+/* Hover effects  */
+
+.navbar-left li:hover a,
+.nav-tabs li:hover a{
+	color: #3dcbb3;
+}
+
+.navbar-right li:hover a{
+	color: #fff;
+}
+
+.navbar-right li:hover a.facebook{
+	background-color: #4668b3;
+}
+
+.navbar-right li:hover a.google-plus{
+	background-color: #de5745;
+}
+
+.navbar-right li:hover a.twitter{
+	background-color: #2fbbed;
+}
+
+.navbar-right li:hover a.product-hunt{
+	background-color: #d94348;
+}
+
+.navbar-right li:hover a.behance{
+	background-color: #3079ff;
+}
+
+.navbar-right li:hover a.futbol-o{
+	background-color: #eb6397;
 }
